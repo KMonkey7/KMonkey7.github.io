@@ -1,0 +1,50 @@
+body {
+    background: #87CEEB;
+    font-family: sans-serif;
+    height: 100%;
+}
+h1  {
+    font-family: italic;
+    border-style:solid;
+    text-align:center;
+    color: rgb(139, 0, 0,);
+}	
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+
+  .Monkey {
+    flex-basis:300px;
+    max-width:600px;
+    flex-grow:1;
+    margin:20px 0;
+  }
+ 
+.nav {
+display:inline-block;
+   
+ 
+
+} 
+
+
+.Monkeys img{
+  width:80%;
+}
+
+  @media only screen and (max-width:300px) {
+    body {
+      background-color:skyblue;
+    }
+  }
+
+
+
+
+
+
